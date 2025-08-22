@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html,
+body {
+    background: hsl(215, 7%, 65%);
+    height: 100vh;
+    /*importanttttttttttttttttttttttttt*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.square1 {
+    background: hsl(213, 19%, 18%);
+    border-radius: 3rem;
+    width: 70rem;
+    height: 75rem;
+
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.imagestar {
+    margin: 5rem 5rem;
+    background: hsl(213, 22%, 27%);
+    padding: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    /*importanttttttttttttttttttttttttt*/
+
+}
+
+.maintitle {
+    color: white;
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.desc {
+    color: hsl(217, 12%, 63%);
+    font-size: 30px;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rtn-btn {
+    color: white;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 2rem;
+    font-size: 4rem;
+}
+
+.rtn-btn {
+    background: hsl(213, 22%, 27%);
+    border: none;
+}
+
+.rtn-btn:hover {
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: hsl(213, 22%, 27%);
+    ;
+}
+
+.rtn-btn:focus {
+    background: white;
+    color: hsl(213, 22%, 27%);
+}
+
+.doneSubmit {
+    margin: 3rem;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 100;
+    color: hsl(213, 22%, 27%);
+    border-radius: 5rem;
+
+
+}
+
+.doneSubmit:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.classforsubmit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me {
+
+    text-align: center;
+    bottom: 3rem;
+    position: fixed;
+}
+
+.attribution {
+    font-size: 3rem;
+}
+
+
+
+.square2 {
+    display: none;
+    align-items: center;
+    background: hsl(213, 19%, 18%);
+    width: 70rem;
+    height: 75rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+.imth {
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem auto;
+}
+
+.selected {
+    background: hsl(215, 5%, 44%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 3rem;
+    margin: 0.5 auto;
+    width: fit-content;
+    /*importantttttttttttttttttttttttttttt*/
+}
+
+#chosen-number {
+    font-size: 3rem;
+}
+
+.s {
+    color: hsl(215, 5%, 44%);
+    font-size: 3.5rem;
+    margin: 0.5 auto;
+}
+
+.thanking{
+    color: white;
+    font-size: 5rem;
+}
